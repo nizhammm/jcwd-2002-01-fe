@@ -95,8 +95,6 @@ const productDetailPage = ({ productDetail }) => {
 
   const [product, setProduct] = useState({});
 
-  console.log(productDetail)
-
   const renderProducts = () => {
     return products.map((val, idx) => {
       return (
